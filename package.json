@@ -5,7 +5,7 @@
   "main": "datatable",
   "scripts": {
     "install": "npm install",
-    "postinstall": "cd src && typings install && npm run build",
+    "postinstall": "cd src && typings install",
     "watch": "tsc -p src -w",
     "prebuild": "rm -rf lib",
     "build": "tsc -p src",
