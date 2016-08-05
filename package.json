@@ -4,7 +4,7 @@
   "description": "DataTable component for Angular2 framework",
   "main": "datatable",
   "scripts": {
-    "postinstall": "npm install && cd src && typings install && npm run build",
+    "postinstall": "typings install && cd src && npm run build",
     "watch": "tsc -p src -w",
     "prebuild": "rm -rf lib",
     "build": "tsc -p src",
